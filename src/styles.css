@@ -1,0 +1,82 @@
+body {
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #040e1d;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #0e3f71;
+}
+
+::selection {
+  color: white;
+  background: #0e3f71;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #0a4399 #040e1d;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #040e1d;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #0a4399;
+  border-radius: 10px;
+  border: 3px solid #040e1d;
+}
+
+p, ul {
+    margin: 0.5em 0;
+}
+
+#main {
+  top: 0;
+  left: 0;
+  width: calc(100vw - 24px);
+  height: 100vh;
+  overflow-y: scroll;
+  padding: 12px 1.5em;
+  font-family: monospace;
+  font-size: 18px;
+  line-height: 1.4em;
+  color: #cde3ff;
+  position: fixed;
+  background-color: transparent;
+}
+
+.milkdown > div {
+  border: none;
+  border-radius: 0;
+  outline: none;
+  resize: none;
+}
+
+#wordCount {
+  bottom: 0px;
+  right: 12px;
+  color: white;
+  opacity: 0.2;
+  font-size: 64px;
+  font-weight: 600;
+  font-style: italic;
+  position: fixed;
+  pointer-events: none;
+}
+
+iframe[id^="sb__open-sandbox"] {
+  display: none;
+}

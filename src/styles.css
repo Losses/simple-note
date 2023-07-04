@@ -39,17 +39,17 @@ body {
   border: 3px solid #040e1d;
 }
 
-p, ul {
-    margin: 0.5em 0;
+p,
+ul {
+  margin: 0.5em 0;
 }
 
 #main {
   top: 0;
   left: 0;
-  width: calc(100vw - 24px);
+  width: 100vw;
   height: 100vh;
   overflow-y: scroll;
-  padding: 12px 1.5em;
   font-family: monospace;
   font-size: 18px;
   line-height: 1.4em;
@@ -59,6 +59,8 @@ p, ul {
 }
 
 .milkdown > div {
+  padding: 12px 1.5em;
+  min-height: calc(100vh - 3em);
   border: none;
   border-radius: 0;
   outline: none;

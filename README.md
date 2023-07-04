@@ -2,19 +2,17 @@
 
 [![online](https://img.shields.io/badge/Online-75e3e2?label=PWA)](https://notes.m-b.science) [![Netlify Status](https://api.netlify.com/api/v1/badges/555184fb-b165-4a45-a25b-5e9b402cfb90/deploy-status)](https://app.netlify.com/sites/dainty-cobbler-d37309/deploys)
 
-SimpleNote is a minimalistic note-taking tool designed to fulfill my basic note-taking needs.
+SimpleNote is a minimalistic note-taking tool designed to fulfill my basic note-taking needs. To be honest, I have never found a suitable note-taking tool, so I decided to create my own.
 
 It provides a straightforward and uncluttered interface for quickly jotting down your thoughts or important information.
 
-This README will guide you through the features and functionality of SimpleNote.
-
 # Features
 
-* Single Page: SimpleNote consists of just one page, making it easy to focus on your notes without any distractions.
+* **Single Page:** SimpleNote consists of just one page, making it easy to focus on your notes without any distractions.
 
-* Auto-Save: As you write your notes, SimpleNote automatically saves your content, ensuring that you don't lose any valuable information.
+* **Auto-Save:** As you write your notes, SimpleNote automatically saves your content, ensuring that you don't lose any valuable information.
 
-* Content Formatting: SimpleNote supports automatic formatting of your content. This means that as you type, it will intelligently format your text, making it easier to read and comprehend.
+* **Content Formatting:** SimpleNote supports automatic formatting of your content. This means that as you type, it will intelligently format your text, making it easier to read and comprehend.
 
 # Getting Started
 
